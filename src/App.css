@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+.country-list{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 10px;
+}
+.country{
+  background-color: aquamarine;
+  border: 2px solid goldenrod;
+  padding: 10px;
+  border-radius: 10px;
+
+}
